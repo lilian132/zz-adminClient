@@ -1,0 +1,95 @@
+@import './theme.less';
+
+/*font-size*/
+.font11{ font-size:11px}
+.font12{ font-size:12px}
+.font14{ font-size:14px}
+.font16{ font-size:16px}
+.font17{ font-size:17px}
+.font18{ font-size:18px}
+.font24{ font-size:24px;}
+.font40{ font-size:40px}
+.bold{ font-weight:bold}
+
+/*color*/
+.iconfont{
+  color:@color_font3;
+}
+.iconfont_btn{
+  padding: .2rem;
+}
+
+.color_main{ color: @color_main;}
+.color_orange{ color:@color_orange;}
+.color_danger{ color:@color_danger;}
+.color_font1{ color:@color_font1;}
+.color_font2{ color:@color_font2;}
+.color_font3{ color:@color_font3;}
+.color_border{ color:@color_border;}
+.color_line{ color:@color_line;}
+.color_bg{ background:@color_bg;}
+
+/*float*/
+.left{ float:left;}
+.right{ float:right;}
+.hide{ display: none !important;}
+.show{ display: block;}
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1}
+
+/*border-radius*/
+.border_radius_5{ border-radius:5px;}
+.border_radius_10{ border-radius:10px;}
+
+/*margin*/
+.margin_top_5{ margin-top:5px;}
+.margin_top_10{ margin-top:10px;}
+.margin_top_15{ margin-top:15px;}
+.margin_top_20{ margin-top:20px;}
+.margin_left_5{ margin-left:5px;}
+.margin_right_5{ margin-right:10px;}
+
+/*一行多行显示省略号*/
+.line{
+  height: 10px;
+  background: #F7F8FA;
+}
+
+.one-line {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.more-line {
+	display: -webkit-box !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: break-all;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+
+.auto-gp {
+	/*自动换行*/
+	word-wrap: break-word;
+	word-break: normal;
+}
+
+/*红点*/
+.redDot{
+	width: 10px;
+	height: 10px;
+	background: #ff4b4b;
+	border-radius: 5px;
+	margin-top: 19px;
+	margin-right: 4px;
+	display: inline-block;
+}
+
+.hide{
+  display: none;
+}
+
+#root {
+  height: 100%;
+}
